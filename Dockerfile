@@ -13,4 +13,4 @@ EXPOSE 80
 
 ENTRYPOINT ["npm"]
 # Define the command to run the app
-CMD ["test"]
+CMD ["start"]
