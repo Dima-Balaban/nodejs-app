@@ -8,4 +8,5 @@ RUN npm install
 
 COPY . .
 
+#Create process for start test inside container
 CMD ["tail", "-f", "/dev/null"]
